@@ -17,12 +17,12 @@ public class Day10 {
     }
 
     public static int binary(int n) {
-        int count = 0;
         int max = 0;
-        while(n > 0) {
-            if(n % 2 == 1) {
+        int count = 0;
+        while (n > 0) {
+            if (n % 2 == 1) {
                 count++;
-                if(count > max) {
+                if (count > max) {
                     max = count;
                 }
             } else {
